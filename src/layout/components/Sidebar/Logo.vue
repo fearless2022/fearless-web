@@ -25,7 +25,7 @@ export default {
   },
   data() {
     return {
-      title: 'FEARLESSADMIN-后台管理',
+      title: 'FEARLESS',
       logo: Logo
     }
   }
