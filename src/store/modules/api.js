@@ -12,10 +12,14 @@ const api = {
     updateAvatarApi: baseUrl + '/api/users/updateAvatar',
     // 上传文件到七牛云
     qiNiuUploadApi: baseUrl + '/api/qiNiuContent',
+    // 上传文件到minio
+    // minioApi: baseUrl + '/api/minio/one',
     // Sql 监控
     sqlApi: baseUrl + '/druid/index.html',
     // swagger
-    swaggerApi: baseUrl + '/swagger-ui.html',
+    // swaggerApi: baseUrl + '/swagger-ui.html',
+    // doc
+    swaggerApi: baseUrl + '/doc.html',
     // 文件上传
     fileUploadApi: baseUrl + '/api/localStorage',
     // baseUrl，
