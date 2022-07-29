@@ -36,6 +36,23 @@ npm run dev
 npm run build:prod
 ```
 
+#### Build Github Pages
+``` bash
+# 打包
+npm run build:prod
+
+# 复制 CNAME 文件到 dist 根目录
+
+# 添加
+git add -f dist
+
+# commit
+git commit -m "first commit"
+
+# push
+git subtree push --prefix dist github gh-pages
+```
+
 #### 常见问题
 
 1、linux 系统在安装依赖的时候会出现 node-sass 无法安装的问题
